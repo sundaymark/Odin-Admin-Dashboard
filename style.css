@@ -1,0 +1,31 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Oswald:wght@200&family=PT+Sans+Narrow:wght@700&family=Roboto:ital,wght@0,300;1,300&family=Space+Grotesk:wght@300;400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto,sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 80%;
+}
+
+.side-bar{
+    background-color:#38bdf8;
+    color: white;
+    height: 100vh;
+
+}
+
+.main-container{
+    background-color: white;
+    height: 100vh;
+    
+}

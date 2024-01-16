@@ -21,25 +21,33 @@ body{
     background-color:#38bdf8;
     color: white;
     height: 100vh;
-
 }
 
-.main-container{
+.right-side{
     background-color: white;
-    height: 100vh;
-    
+    display: grid;
+    grid-template-rows: 20% 80%; 
 }
 
 svg{
-    width: 10%;
-    
-    
+    width: 5%; 
+    margin-right: 15px;
 }
 
 .icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
     
+}
+
+input{
+    border-radius: 20px;
+    width: 450px;
+    background-color: whitesmoke;
 
 }
+
+
+

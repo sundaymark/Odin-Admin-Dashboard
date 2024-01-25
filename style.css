@@ -5,3 +5,43 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar{
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
+}
+
+.main{
+    background-color: white;
+    height: 100vh;
+}
+
+svg{
+    height: 30px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+}
+

@@ -30,7 +30,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 p{
@@ -40,8 +40,12 @@ p{
 
 .icons{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     margin: 10px 40px;
+}
+
+.icon2{
+    margin: 50px 0px;
 }
 

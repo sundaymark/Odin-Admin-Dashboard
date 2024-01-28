@@ -19,6 +19,8 @@
 .main{
     background-color: white;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
 }
 
 svg{
@@ -49,3 +51,27 @@ p{
     margin: 50px 0px;
 }
 
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contents{
+    background-color:#f3f4f6;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.inputfield{
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid #f3f4f6;
+    background-color: #f3f4f6;
+    margin-left: 20px;
+    margin-right: 50px;
+}
